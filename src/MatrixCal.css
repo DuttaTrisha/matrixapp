@@ -1,0 +1,141 @@
+
+
+/* h1 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+  
+} */
+ .matrix-generation.css-ubb9a5-MuiGrid2-root{
+  display:flex;
+  flex-direction: column;
+ }
+ .matrix-generation .css-o2za6n-MuiTypography-root {
+  color:#cd2be6;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 10px;
+ }
+ .matrix-generation .css-1fzlhpv-MuiGrid2-root  > .css-1xp5r68-MuiFormControl-root-MuiTextField-root{
+  margin:0 10px;
+  width:30%;
+ }
+ .matrix-generation .css-quhxjy-MuiInputBase-root-MuiOutlinedInput-root {
+  display: flex;
+  justify-content: center;
+ }
+ .matrix-generation input[type="number"]{
+  width:100%;
+ }
+ .matrix-generation .generate-matrix-btn{
+  background: #cd2be6;
+  color:#fff;
+  font-weight: 700;
+  margin:20px 30%;
+ }
+ .matrix-display{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:30px 0;
+ }
+ .matrix-display .css-1fzlhpv-MuiGrid2-root {
+  width: 100%;
+ }
+ .matrix-section h3{
+  color:#751d54;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 12px;
+ }
+ .matrix-section.ReactVirtualized__Grid{
+  width: 100%;
+ } 
+.matrix-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.matrix-section {
+  border: 2px solid #333;
+  padding: 10px;
+  flex: 1;
+  overflow-x: auto;
+  background-color: #f9f9f9;
+  margin:20px
+}
+
+/* .matrix-section h2 {
+  text-align: center;
+  margin-bottom: 15px;
+} */
+
+input[type="number"]{
+  margin: 10px;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+  width: 100px;
+  text-align: center;
+}
+
+.result-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.matrix-section table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.matrix-section td, .matrix-section th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.matrix-section input {
+  width: 50px;
+  text-align: center;
+  padding: 5px;
+}
+.button-container, .result-matrix-block{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.result-matrix-block{
+  margin:50px 0;
+}
+.button-group > button{
+  background: #cd2be6;
+  color:#fff;
+  font-weight: 700;
+  margin:0 10px;
+  flex-wrap: wrap;
+}
+.result-matrix-block h4{
+  color:#cd2be6;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+

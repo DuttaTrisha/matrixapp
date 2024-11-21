@@ -1,7 +1,9 @@
 .App {
   text-align: center;
 }
-
+body {
+  overflow-x: hidden;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +37,41 @@
   to {
     transform: rotate(360deg);
   }
+}
+@media (max-width: 991px) {
+  .matrix-container {
+    flex-direction: column;
+  }
+}
+@media (max-width: 575px) {
+  .button-container .button-group > button {
+    margin: 10px;
+  }
+  .matrix-section h3 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .matrix-generation .css-1fzlhpv-MuiGrid2-root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .matrix-generation
+    .css-1fzlhpv-MuiGrid2-root
+    > .css-1xp5r68-MuiFormControl-root-MuiTextField-root {
+    width: 100% !important;
+    margin:10px 0 !important;
+  }
+  .matrix-generation .generate-matrix-btn {
+    margin: 20px 20%;
+}
+.matrix-section h3 {
+  font-size: 20px;
+}
+}
+@media(max-width:420px){
+  .matrix-generation .css-o2za6n-MuiTypography-root {
+   font-size: 35px;
+}
 }
